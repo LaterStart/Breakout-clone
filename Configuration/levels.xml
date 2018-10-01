@@ -1,0 +1,242 @@
+﻿<?xml version="1.0"?>
+<Levels>
+	<Level>
+		<RowCount>4</RowCount>
+		<ColumnCount>10</ColumnCount>
+		<RowSpacing>3</RowSpacing>
+		<ColumnSpacing>3</ColumnSpacing>
+		<TitleTexture>Textures/level_title_01.png</TitleTexture>
+		<BackgroundTexture>Textures/Boards/Board_02.png</BackgroundTexture>
+		<LeftFrameTexture>Textures/Frame_01.png</LeftFrameTexture>
+		<RightFrameTexture>Textures/Frame_02.png</RightFrameTexture>
+		<TopFrameTexture>Textures/Frame_03.png</TopFrameTexture>
+		<RaftTexture>Textures/Raft_01.png</RaftTexture>		
+		<!-- seconds -->
+		<DropdownTime>20</DropdownTime>
+		<!-- 1 = max speed (higher = slower) -->
+		<BallSpeed>3</BallSpeed>
+		<!-- single or double  -->
+		<RaftMode>single</RaftMode>
+		<BrickTypes>
+			<!-- Soft Brick -->
+			<BrickType>	
+				<Id>S</Id>
+				<Texture>Textures/Bricks/Brick_01.png</Texture>
+				<HitPoints>1</HitPoints>
+				<HitSound>Sounds/Hit_01.wav</HitSound>
+				<BreakSound>Sounds/Break_01.wav</BreakSound>
+				<BreakScore>50</BreakScore>
+			</BrickType>
+			<!-- Medium Brick -->
+			<BrickType>	
+				<Id>M</Id>
+				<Texture>Textures/Bricks/Brick_02.png</Texture>
+				<HitPoints>2</HitPoints>
+				<HitSound>Sounds/Hit_02.wav</HitSound>
+				<BreakSound>Sounds/Break_02.wav</BreakSound>
+				<BreakScore>100</BreakScore>
+			</BrickType>
+			<!-- Hard Brick -->
+			<BrickType>	
+				<Id>H</Id>
+				<Texture>Textures/Bricks/Brick_03.png</Texture>
+				<HitPoints>3</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+				<BreakSound>Sounds/Break_03.wav</BreakSound>
+				<BreakScore>150</BreakScore>
+			</BrickType>
+			<!-- Impenetrable Brick -->
+			<BrickType>	
+				<Id>I</Id>
+				<Texture>Textures/Bricks/Brick_04.png</Texture>	
+				<HitPoints>0</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+			</BrickType>
+		</BrickTypes>
+		<Bricks>
+		H H H H H H H H H H
+		M M I I M M M M M M
+		S S S S S S S S S S 
+		S S S S S S S S S S 
+		</Bricks>
+	</Level>
+	<Level>
+		<RowCount>5</RowCount>
+		<ColumnCount>14</ColumnCount>
+		<RowSpacing>3</RowSpacing>
+		<ColumnSpacing>3</ColumnSpacing>
+		<TitleTexture>Textures/level_title_02.png</TitleTexture>
+		<BackgroundTexture>Textures/Boards/Board_01.png</BackgroundTexture>
+		<LeftFrameTexture>Textures/Frame_01.png</LeftFrameTexture>
+		<RightFrameTexture>Textures/Frame_02.png</RightFrameTexture>
+		<TopFrameTexture>Textures/Frame_03.png</TopFrameTexture>
+		<RaftTexture>Textures/Raft_01.png</RaftTexture>	
+		<DropdownTime>15</DropdownTime>
+		<BallSpeed>2</BallSpeed>
+		<RaftMode>single</RaftMode>
+		<BrickTypes>
+			<!-- Soft Brick -->
+			<BrickType>	
+				<Id>S</Id>
+				<Texture>Textures/Bricks/Brick_01.png</Texture>
+				<HitPoints>1</HitPoints>
+				<HitSound>Sounds/Hit_01.wav</HitSound>
+				<BreakSound>Sounds/Break_01.wav</BreakSound>
+				<BreakScore>50</BreakScore>
+			</BrickType>
+			<!-- Medium Brick -->
+			<BrickType>	
+				<Id>M</Id>
+				<Texture>Textures/Bricks/Brick_02.png</Texture>
+				<HitPoints>2</HitPoints>
+				<HitSound>Sounds/Hit_02.wav</HitSound>
+				<BreakSound>Sounds/Break_02.wav</BreakSound>
+				<BreakScore>100</BreakScore>
+			</BrickType>
+			<!-- Hard Brick -->
+			<BrickType>	
+				<Id>H</Id>
+				<Texture>Textures/Bricks/Brick_03.png</Texture>
+				<HitPoints>3</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+				<BreakSound>Sounds/Break_03.wav</BreakSound>
+				<BreakScore>150</BreakScore>
+			</BrickType>
+			<!-- Impenetrable Brick -->
+			<BrickType>	
+				<Id>I</Id>
+				<Texture>Textures/Bricks/Brick_04.png</Texture>	
+				<HitPoints>0</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+			</BrickType>
+		</BrickTypes>
+		<Bricks>
+		H H H H H H H H H H H H H H
+		M M H H M M M M M M I I M M
+		M M I I M M M M M M H H M M
+		S S S S S S S S S S S S S S
+		S S S S M M M M M M M S S S
+		</Bricks>
+	</Level>
+	<Level>
+		<RowCount>6</RowCount>
+		<ColumnCount>20</ColumnCount>
+		<RowSpacing>3</RowSpacing>
+		<ColumnSpacing>3</ColumnSpacing>
+		<TitleTexture>Textures/level_title_03.png</TitleTexture>
+		<BackgroundTexture>Textures/Boards/Board_01.png</BackgroundTexture>
+		<LeftFrameTexture>Textures/Frame_01.png</LeftFrameTexture>
+		<RightFrameTexture>Textures/Frame_02.png</RightFrameTexture>
+		<TopFrameTexture>Textures/Frame_03.png</TopFrameTexture>
+		<RaftTexture>Textures/Raft_01.png</RaftTexture>	
+		<DropdownTime>12</DropdownTime>
+		<BallSpeed>1</BallSpeed>
+		<RaftMode>single</RaftMode>
+		<BrickTypes>
+			<!-- Soft Brick -->
+			<BrickType>	
+				<Id>S</Id>
+				<Texture>Textures/Bricks/Brick_01.png</Texture>
+				<HitPoints>1</HitPoints>
+				<HitSound>Sounds/Hit_01.wav</HitSound>
+				<BreakSound>Sounds/Break_01.wav</BreakSound>
+				<BreakScore>50</BreakScore>
+			</BrickType>
+			<!-- Medium Brick -->
+			<BrickType>	
+				<Id>M</Id>
+				<Texture>Textures/Bricks/Brick_02.png</Texture>
+				<HitPoints>2</HitPoints>
+				<HitSound>Sounds/Hit_02.wav</HitSound>
+				<BreakSound>Sounds/Break_02.wav</BreakSound>
+				<BreakScore>100</BreakScore>
+			</BrickType>
+			<!-- Hard Brick -->
+			<BrickType>	
+				<Id>H</Id>
+				<Texture>Textures/Bricks/Brick_03.png</Texture>
+				<HitPoints>3</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+				<BreakSound>Sounds/Break_03.wav</BreakSound>
+				<BreakScore>150</BreakScore>
+			</BrickType>
+			<!-- Impenetrable Brick -->
+			<BrickType>	
+				<Id>I</Id>
+				<Texture>Textures/Bricks/Brick_04.png</Texture>	
+				<HitPoints>0</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+			</BrickType>
+		</BrickTypes>
+		<Bricks>
+		H H H H H H H H H I I H H H H H H H H H
+		I I H H H I I H H I I H H I I H H H I I
+		M M I I M M M M M M M M M M M M I I M M 
+		S S S S S S M M M M M M M M S S S S S S
+		S S S S S S S S S S S S S S S S S S S S	
+		S S S S S S M M M M M M M M S S S S S S
+		</Bricks>
+	</Level>
+	<Level>
+		<RowCount>9</RowCount>
+		<ColumnCount>20</ColumnCount>
+		<RowSpacing>3</RowSpacing>
+		<ColumnSpacing>3</ColumnSpacing>
+		<TitleTexture>Textures/level_title_04.png</TitleTexture>
+		<BackgroundTexture>Textures/Boards/Board_01.png</BackgroundTexture>
+		<LeftFrameTexture>Textures/Frame_01.png</LeftFrameTexture>
+		<RightFrameTexture>Textures/Frame_02.png</RightFrameTexture>
+		<TopFrameTexture>Textures/Frame_03.png</TopFrameTexture>
+		<RaftTexture>Textures/Raft_01.png</RaftTexture>	
+		<DropdownTime>8</DropdownTime>
+		<BallSpeed>1</BallSpeed>
+		<RaftMode>double</RaftMode>
+		<BrickTypes>
+			<!-- Soft Brick -->
+			<BrickType>	
+				<Id>S</Id>
+				<Texture>Textures/Bricks/Brick_01.png</Texture>
+				<HitPoints>1</HitPoints>
+				<HitSound>Sounds/Hit_01.wav</HitSound>
+				<BreakSound>Sounds/Break_01.wav</BreakSound>
+				<BreakScore>50</BreakScore>
+			</BrickType>
+			<!-- Medium Brick -->
+			<BrickType>	
+				<Id>M</Id>
+				<Texture>Textures/Bricks/Brick_02.png</Texture>
+				<HitPoints>2</HitPoints>
+				<HitSound>Sounds/Hit_02.wav</HitSound>
+				<BreakSound>Sounds/Break_02.wav</BreakSound>
+				<BreakScore>100</BreakScore>
+			</BrickType>
+			<!-- Hard Brick -->
+			<BrickType>	
+				<Id>H</Id>
+				<Texture>Textures/Bricks/Brick_03.png</Texture>
+				<HitPoints>3</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+				<BreakSound>Sounds/Break_03.wav</BreakSound>
+				<BreakScore>150</BreakScore>
+			</BrickType>
+			<!-- Impenetrable Brick -->
+			<BrickType>	
+				<Id>I</Id>
+				<Texture>Textures/Bricks/Brick_04.png</Texture>	
+				<HitPoints>0</HitPoints>
+				<HitSound>Sounds/Hit_03.wav</HitSound>
+			</BrickType>
+		</BrickTypes>
+		<Bricks>
+		H H H H H H H H H I I H H H H H H H H H
+		I I H H H I I H H I I H H I I H H H I I
+		M M I I M M M M M M M M M M M M I I M M
+		S S S S S I M M M M M M M M I S S S S S
+		S S S S S S M M M M M M M M S S S S S S
+		S S S S S S S S I I I I S S S S S S S S
+		_ _ _ _ _ _ _ S S S S S S _ _ _ _ _ _ _
+        _ _	_ _ _ _ _ _ S S S S _ _ _ _ _ _ _ _
+        _ _	_ _ _ _ _ _ _ S	S _	_ _ _ _ _ _ _ _
+		</Bricks>
+	</Level>
+</Levels>
