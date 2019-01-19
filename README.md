@@ -1,5 +1,7 @@
 Release version 1.0. download link:
 - https://1drv.ms/u/s!AvSeXu5OAmQ4h5Ev9zGXe4xhzpjnOw
+
+Configure your own levels editing Configuration/levels.xml file
 ------------------------------------------------------------
 
 Used libraries:
